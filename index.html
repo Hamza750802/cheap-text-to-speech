@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CheapTTS — AI Text to Speech &amp; Video Generator | 90+ Voices, 75 Languages</title>
+  <meta name="description" content="CheapTTS is a professional AI text to speech platform with 90+ voices across 75+ languages. Generate studio-quality voiceovers, AI videos, Shorts, and narration at a fraction of ElevenLabs' price." />
+  <meta name="keywords" content="text to speech, AI voice generator, cheap TTS, ElevenLabs alternative, AI voiceover, text to video, TTS for YouTube, free text to speech, multi-speaker TTS, AI narration" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+
+  <!-- GEO / hreflang -->
+  <link rel="alternate" hreflang="en"    href="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <link rel="alternate" hreflang="en-US" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <link rel="alternate" hreflang="en-GB" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <link rel="alternate" hreflang="en-IN" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <link rel="alternate" hreflang="en-AU" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <link rel="alternate" hreflang="en-CA" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <link rel="alternate" hreflang="x-default" href="https://hamza750802.github.io/cheap-text-to-speech/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="CheapTTS — AI Text to Speech &amp; Video Generator" />
+  <meta property="og:description" content="90+ AI voices, 75+ languages, built-in video studio. Professional TTS at 40× less than ElevenLabs." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://hamza750802.github.io/cheap-text-to-speech/" />
+  <meta property="og:image"       content="https://cheaptts.com/og-image.png" />
+  <meta name="twitter:card"       content="summary_large_image" />
+  <meta name="twitter:title"      content="CheapTTS — AI Text to Speech &amp; Video Generator" />
+  <meta name="twitter:description" content="90+ AI voices, 75+ languages, built-in video studio. 40× cheaper than ElevenLabs." />
+  <meta name="twitter:image"      content="https://cheaptts.com/og-image.png" />
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "CheapTTS",
+    "url": "https://cheaptts.com",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Web",
+    "description": "CheapTTS is a professional AI text to speech and video generation platform. Convert text to natural-sounding speech in 75+ languages using V1, V2 HD, and V3 Studio engine tiers. Built-in AI video studio for YouTube, TikTok Shorts, and faceless video creation.",
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "0",
+      "highPrice": "29.99",
+      "priceCurrency": "USD",
+      "offerCount": "3"
+    },
+    "featureList": [
+      "90+ AI voices",
+      "75+ languages",
+      "V3 Studio with emotion control",
+      "Multi-speaker dialogue",
+      "Built-in AI video generator",
+      "Auto captions",
+      "TikTok Shorts generator",
+      "YouTube narration",
+      "PDF and document to speech",
+      "3-day free trial"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "312"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is CheapTTS?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CheapTTS is an AI-powered text to speech and video generation platform that converts written text into natural-sounding speech. It offers three engine tiers — V1 (fast), V2 HD, and V3 Studio (emotion-aware) — covering 75+ languages and 90+ voices."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does CheapTTS compare to ElevenLabs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CheapTTS delivers comparable voice quality to ElevenLabs at roughly 40× lower cost. The Unlimited plan is $29.99/month versus ElevenLabs Scale at $1,320+/month. CheapTTS also includes a built-in AI video studio, auto captions, and Shorts generation — features ElevenLabs does not offer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does CheapTTS support multiple languages?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. CheapTTS supports 75+ languages including English, Spanish, French, German, Portuguese, Hindi, Arabic, Japanese, Korean, Chinese, Italian, Dutch, Polish, Turkish, and many more. V3 Studio voices cover the widest language range."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I generate videos with CheapTTS?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. CheapTTS includes a built-in AI video generator. Enter a topic and the AI writes the script, records the narration, generates visuals, adds captions, and renders an MP4. Supports both 9:16 Shorts (TikTok, Reels) and 16:9 long-form (YouTube)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a free trial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. CheapTTS offers a 3-day free trial with 5,000 V1 characters, 5,000 HD characters, and access to the full video editor — no credit card required."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #08090c;
+      --surface: #0f1014;
+      --surface2: #14151a;
+      --border: #1c1d24;
+      --accent: #FF3B00;
+      --accent-dim: rgba(255,59,0,0.10);
+      --accent-border: rgba(255,59,0,0.28);
+      --text: #f0ede8;
+      --muted: #6b6c78;
+      --green: #22c55e;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(8,9,12,0.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+      padding: 0.9rem 1.5rem;
+    }
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-cta {
+      background: var(--accent);
+      color: #fff;
+      padding: 0.45rem 1.2rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .nav-cta:hover { opacity: 0.82; text-decoration: none; }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 6rem 1.5rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255,59,0,0.09) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 1.5rem;
+    }
+    .hero-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.2} }
+
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+      position: relative;
+    }
+    h1 .accent { color: var(--accent); }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 2.25rem;
+      line-height: 1.75;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      padding: 0.85rem 2rem;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: opacity 0.15s, transform 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .btn-primary:hover { opacity: 0.84; transform: translateY(-1px); text-decoration: none; }
+    .btn-ghost {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 0.85rem 0;
+      transition: color 0.15s;
+    }
+    .btn-ghost:hover { color: var(--text); text-decoration: none; }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-n { font-size: 2rem; font-weight: 900; line-height: 1; display: block; }
+    .stat-l { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+
+    /* ── SECTIONS ── */
+    section { padding: 5rem 1.5rem; }
+    section.alt { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+
+    h2 {
+      font-size: clamp(1.75rem, 4vw, 2.6rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+    h2 .accent { color: var(--accent); }
+
+    .section-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-lead {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 600px;
+      line-height: 1.75;
+      margin-bottom: 2.5rem;
+    }
+
+    /* ── FEATURE GRID ── */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-top: 2.5rem;
+    }
+    .feature-card {
+      background: var(--surface2);
+      padding: 1.75rem;
+      transition: background 0.2s;
+    }
+    .feature-card:hover { background: #1a1b22; }
+    .feature-icon {
+      font-size: 1.6rem;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+    .feature-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+    .feature-desc {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── ENGINE TABLE ── */
+    .engine-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      font-size: 0.88rem;
+    }
+    .engine-table th {
+      text-align: left;
+      padding: 0.75rem 1rem;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .engine-table td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .engine-table tr:last-child td { border-bottom: none; }
+    .engine-badge {
+      display: inline-block;
+      padding: 0.15rem 0.55rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .badge-v1 { background: rgba(99,102,241,0.15); color: #818cf8; }
+    .badge-v2 { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .badge-v3 { background: var(--accent-dim); color: #ff6b44; }
+
+    /* ── COMPARE ── */
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-top: 2rem;
+    }
+    .compare-col {
+      background: var(--surface2);
+      padding: 2rem;
+    }
+    .compare-col.winner {
+      background: linear-gradient(135deg, rgba(255,59,0,0.06) 0%, var(--surface2) 100%);
+    }
+    .compare-brand { font-size: 1.4rem; font-weight: 800; margin-bottom: 0.25rem; }
+    .compare-price { font-size: 2.4rem; font-weight: 900; margin: 0.75rem 0; line-height: 1; }
+    .compare-price small { font-size: 1rem; font-weight: 400; color: var(--muted); }
+    .compare-tag { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+    .winner .compare-tag { color: var(--accent); }
+    .compare-list { list-style: none; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.55rem; }
+    .compare-list li { font-size: 0.85rem; display: flex; gap: 0.5rem; align-items: center; }
+    .yes { color: var(--accent); font-weight: 700; }
+    .no  { color: #2e2e38; font-weight: 700; }
+    .no-text { color: var(--muted); }
+    .winner-chip {
+      display: inline-flex;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── USE CASES ── */
+    .use-cases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .use-case-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.4rem;
+      transition: border-color 0.2s;
+    }
+    .use-case-card:hover { border-color: var(--accent-border); }
+    .uc-icon { font-size: 1.5rem; margin-bottom: 0.5rem; display: block; }
+    .uc-title { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .uc-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.55; }
+
+    /* ── LANGUAGES ── */
+    .lang-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.75rem;
+    }
+    .lang-tag {
+      padding: 0.3rem 0.75rem;
+      border-radius: 6px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .lang-tag:hover { border-color: var(--accent-border); color: var(--text); }
+    .lang-tag.featured { border-color: var(--accent-border); color: #ff6b44; }
+
+    /* ── FAQ ── */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-top: 2rem;
+    }
+    details {
+      background: var(--surface2);
+      transition: background 0.2s;
+    }
+    details[open] { background: var(--surface); }
+    summary {
+      padding: 1.2rem 1.5rem;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 1.1rem;
+      color: var(--accent);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    details[open] summary::after { content: '−'; }
+    .faq-body {
+      padding: 0 1.5rem 1.2rem;
+      font-size: 0.86rem;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+    .faq-body a { color: var(--accent); }
+
+    /* ── CTA BAND ── */
+    .cta-band {
+      background: var(--accent);
+      padding: 5rem 1.5rem;
+      text-align: center;
+    }
+    .cta-band h2 { color: #fff; margin-bottom: 0.75rem; font-size: clamp(2rem, 5vw, 3.5rem); }
+    .cta-band p { color: rgba(255,255,255,0.7); margin-bottom: 2rem; font-size: 1rem; }
+    .cta-band .btn-white {
+      background: #fff;
+      color: var(--accent);
+      padding: 0.95rem 2.5rem;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .cta-band .btn-white:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,0.2); text-decoration: none; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #040406;
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--text); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 700px) {
+      .compare-grid { grid-template-columns: 1fr; }
+      .stats-row { gap: 1.5rem; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="https://cheaptts.com" class="nav-logo">CHEAP<span>TTS</span></a>
+    <a href="https://cheaptts.com/sign-up" class="nav-cta" rel="noopener">Start Free →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-tag">
+      <span class="hero-dot"></span>
+      AI-Powered · 75+ Languages · Free Trial
+    </div>
+    <h1>The <span class="accent">AI Voice Generator</span><br>Creators Actually Afford</h1>
+    <p class="hero-sub">
+      <a href="https://cheaptts.com" rel="noopener"><strong>CheapTTS</strong></a> delivers studio-quality text to speech across 90+ voices and 75+ languages —
+      with a built-in AI video studio for YouTube, TikTok Shorts, and faceless content.
+      Same quality as ElevenLabs. Up to 40× cheaper.
+    </p>
+    <div class="hero-cta-row">
+      <a href="https://cheaptts.com/sign-up" class="btn-primary" rel="noopener">Start Free Trial</a>
+      <a href="https://cheaptts.com/pricing" class="btn-ghost" rel="noopener">See Pricing →</a>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><span class="stat-n" style="color:var(--accent)">90+</span><span class="stat-l">AI Voices</span></div>
+      <div class="stat"><span class="stat-n">75+</span><span class="stat-l">Languages</span></div>
+      <div class="stat"><span class="stat-n" style="color:var(--accent)">40×</span><span class="stat-l">Cheaper</span></div>
+      <div class="stat"><span class="stat-n">Free</span><span class="stat-l">Trial</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- WHAT IS CHEAPTTS -->
+<section>
+  <div class="container">
+    <div class="section-label">Overview</div>
+    <h2>What is <span class="accent">CheapTTS</span>?</h2>
+    <p class="section-lead">
+      <a href="https://cheaptts.com" rel="noopener">CheapTTS</a> is a web-based AI text to speech platform built for content creators, YouTubers, podcasters, marketers, and developers who need professional voiceovers without enterprise-level budgets.
+    </p>
+    <p style="color:var(--muted);font-size:0.92rem;line-height:1.8;margin-bottom:1rem;">
+      Unlike single-engine TTS tools, CheapTTS offers three distinct voice engine tiers to match your use case — from lightning-fast bulk generation to emotionally expressive studio narration. Every plan also includes access to the built-in AI video generator, enabling creators to produce fully narrated videos from a single text prompt.
+    </p>
+    <p style="color:var(--muted);font-size:0.92rem;line-height:1.8;">
+      Whether you're producing Reddit story narrations, YouTube educational content, TikTok Shorts, product ads, audiobooks, or multi-language customer service recordings — <a href="https://cheaptts.com" rel="noopener">CheapTTS</a> provides the infrastructure at a price point accessible to solo creators.
+    </p>
+  </div>
+</section>
+
+<!-- VOICE ENGINES -->
+<section class="alt">
+  <div class="container">
+    <div class="section-label">Voice Technology</div>
+    <h2>Three Engine Tiers for <span class="accent">Every Use Case</span></h2>
+    <p class="section-lead">
+      CheapTTS's three-tier voice engine architecture lets you choose the right balance of speed, quality, and expressiveness for each project.
+    </p>
+    <table class="engine-table">
+      <thead>
+        <tr>
+          <th>Engine</th>
+          <th>Best For</th>
+          <th>Languages</th>
+          <th>Key Feature</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="engine-badge badge-v1">V1</span></td>
+          <td>Bulk generation, fast previews, high-volume workflows</td>
+          <td>12+</td>
+          <td>Ultra-fast, cost-efficient, natural clarity</td>
+        </tr>
+        <tr>
+          <td><span class="engine-badge badge-v2">V2 HD</span></td>
+          <td>YouTube narration, audiobooks, professional voiceovers</td>
+          <td>28+</td>
+          <td>Studio-grade audio quality, expressive delivery</td>
+        </tr>
+        <tr>
+          <td><span class="engine-badge badge-v3">V3 Studio</span></td>
+          <td>Dialogue, emotional storytelling, multi-speaker content</td>
+          <td>76+</td>
+          <td>Emotion control, multi-speaker, natural-language direction</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.5rem;font-size:0.84rem;color:var(--muted);">
+      All three engines are available inside the <a href="https://cheaptts.com/app" rel="noopener">CheapTTS web app</a> — no installs, no API setup required for standard use.
+    </p>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <div class="container">
+    <div class="section-label">Features</div>
+    <h2>Everything in <span class="accent">One Platform</span></h2>
+    <p class="section-lead">
+      <a href="https://cheaptts.com" rel="noopener">CheapTTS</a> combines professional text to speech with a full AI video production suite — no third-party tools needed.
+    </p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon">🎙️</span>
+        <div class="feature-title">Emotion-Aware Voices</div>
+        <p class="feature-desc">V3 Studio voices respond to natural language direction. Write "say this excitedly" or "use a calm, professional tone" — the AI adapts the delivery accordingly.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">👥</span>
+        <div class="feature-title">Multi-Speaker Dialogue</div>
+        <p class="feature-desc">Assign different voices to different speakers in a single script. Ideal for interview-style content, podcast intros, and educational dialogue.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🎬</span>
+        <div class="feature-title">AI Video Generator</div>
+        <p class="feature-desc">Enter a topic. AI writes the script, records the narration, generates visuals, adds captions, and renders a complete MP4 — in minutes.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">⚡</span>
+        <div class="feature-title">Shorts Generator</div>
+        <p class="feature-desc">One-prompt 9:16 vertical Shorts for TikTok and Instagram Reels. Includes AI visuals, narration, and auto-captions optimized for short-form platforms.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📝</span>
+        <div class="feature-title">Auto Captions</div>
+        <p class="feature-desc">Automatically transcribe and sync captions to any generated audio or video. Supports custom fonts, colors, and positioning for brand consistency.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📄</span>
+        <div class="feature-title">Document to Speech</div>
+        <p class="feature-desc">Upload PDFs, Word documents, or plain text files and convert them to audio instantly. Useful for creating audiobooks, study materials, and accessibility content.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🖼️</span>
+        <div class="feature-title">AI Image Generation</div>
+        <p class="feature-desc">Generate custom visuals for videos directly within the platform. Each plan includes a monthly AI image allowance for video production.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔌</span>
+        <div class="feature-title">Developer API</div>
+        <p class="feature-desc">Access CheapTTS programmatically via the REST API. Integrate professional AI voice generation into your own applications, pipelines, and workflows.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="alt">
+  <div class="container">
+    <div class="section-label">Pricing Comparison</div>
+    <h2>CheapTTS vs <span class="accent">ElevenLabs</span></h2>
+    <p class="section-lead">
+      Professional AI voice generation should not require an enterprise budget. Here's how <a href="https://cheaptts.com/pricing" rel="noopener">CheapTTS pricing</a> stacks up against the market leader.
+    </p>
+    <div class="compare-grid">
+      <div class="compare-col">
+        <div class="compare-brand">ElevenLabs</div>
+        <div class="compare-tag">Competitor</div>
+        <div class="compare-price">$1,320+<small>/mo</small></div>
+        <ul class="compare-list">
+          <li><span class="yes">✓</span> Pro AI Voices</li>
+          <li><span class="yes">✓</span> Voice Cloning</li>
+          <li><span class="no">✗</span> <span class="no-text">AI Video Studio</span></li>
+          <li><span class="no">✗</span> <span class="no-text">Auto Captions</span></li>
+          <li><span class="no">✗</span> <span class="no-text">Shorts Generator</span></li>
+          <li><span class="no">✗</span> <span class="no-text">Document to Speech</span></li>
+          <li><span class="no">✗</span> <span class="no-text">Free Trial (no card)</span></li>
+        </ul>
+      </div>
+      <div class="compare-col winner">
+        <div class="winner-chip">⚡ Recommended</div>
+        <div class="compare-brand" style="color:var(--accent)">CheapTTS</div>
+        <div class="compare-tag">40× Cheaper</div>
+        <div class="compare-price" style="color:var(--accent)">$29.99<small>/mo</small></div>
+        <ul class="compare-list">
+          <li><span class="yes">✓</span> Pro AI Voices</li>
+          <li><span class="yes">✓</span> Voice Cloning</li>
+          <li><span class="yes">✓</span> AI Video Studio</li>
+          <li><span class="yes">✓</span> Auto Captions</li>
+          <li><span class="yes">✓</span> Shorts Generator</li>
+          <li><span class="yes">✓</span> Document to Speech</li>
+          <li><span class="yes">✓</span> Free Trial — No Card</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:1.25rem;font-size:0.83rem;color:var(--muted);text-align:center;">
+      See the full breakdown on the <a href="https://cheaptts.com/vs/elevenlabs" rel="noopener">CheapTTS vs ElevenLabs comparison page</a>.
+    </p>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section>
+  <div class="container">
+    <div class="section-label">Use Cases</div>
+    <h2>Built for <span class="accent">Real Workflows</span></h2>
+    <p class="section-lead">
+      From solo creators to small agencies, <a href="https://cheaptts.com" rel="noopener">CheapTTS</a> is used across dozens of content production workflows globally.
+    </p>
+    <div class="use-cases-grid">
+      <div class="use-case-card">
+        <span class="uc-icon">▶️</span>
+        <div class="uc-title">YouTube Narration</div>
+        <p class="uc-desc">Generate consistent, professional narration for educational videos, documentaries, and faceless YouTube channels.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">📱</span>
+        <div class="uc-title">TikTok &amp; Reels</div>
+        <p class="uc-desc">Auto-generate vertical Shorts with AI visuals, voiceover, and captions optimized for short-form social platforms.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">📖</span>
+        <div class="uc-title">Audiobooks</div>
+        <p class="uc-desc">Convert long-form text and book manuscripts into high-quality audiobooks using V2 HD or V3 Studio voices.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">🛒</span>
+        <div class="uc-title">Product Ads</div>
+        <p class="uc-desc">Write an ad brief and let AI generate the script, voiceover, visuals, and final MP4 for social and display campaigns.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">🎓</span>
+        <div class="uc-title">E-Learning</div>
+        <p class="uc-desc">Create accessible, multilingual e-learning content with clear narration across 75+ supported languages.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">🤖</span>
+        <div class="uc-title">App Integration</div>
+        <p class="uc-desc">Use the <a href="https://cheaptts.com/developer" rel="noopener">CheapTTS API</a> to add AI voice to chatbots, apps, games, and automated content pipelines.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">📻</span>
+        <div class="uc-title">Podcasts &amp; Radio</div>
+        <p class="uc-desc">Produce podcast intros, segment transitions, and full AI-hosted episodes using multi-speaker dialogue.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="uc-icon">🌍</span>
+        <div class="uc-title">Localization</div>
+        <p class="uc-desc">Translate and re-voice content for Spanish, French, German, Hindi, Arabic, Japanese, and 70+ other markets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LANGUAGES -->
+<section class="alt">
+  <div class="container">
+    <div class="section-label">Global Language Support</div>
+    <h2>Speak to the <span class="accent">World</span></h2>
+    <p class="section-lead">
+      <a href="https://cheaptts.com" rel="noopener">CheapTTS</a> supports 75+ languages — making it one of the most internationally accessible AI voice platforms available. V3 Studio voices cover the widest range.
+    </p>
+    <div class="lang-grid">
+      <span class="lang-tag featured">English (US)</span>
+      <span class="lang-tag featured">English (UK)</span>
+      <span class="lang-tag featured">Spanish</span>
+      <span class="lang-tag featured">French</span>
+      <span class="lang-tag featured">German</span>
+      <span class="lang-tag featured">Portuguese</span>
+      <span class="lang-tag featured">Hindi</span>
+      <span class="lang-tag featured">Arabic</span>
+      <span class="lang-tag featured">Japanese</span>
+      <span class="lang-tag featured">Korean</span>
+      <span class="lang-tag featured">Chinese (Mandarin)</span>
+      <span class="lang-tag featured">Italian</span>
+      <span class="lang-tag">Dutch</span>
+      <span class="lang-tag">Polish</span>
+      <span class="lang-tag">Turkish</span>
+      <span class="lang-tag">Russian</span>
+      <span class="lang-tag">Swedish</span>
+      <span class="lang-tag">Danish</span>
+      <span class="lang-tag">Norwegian</span>
+      <span class="lang-tag">Finnish</span>
+      <span class="lang-tag">Greek</span>
+      <span class="lang-tag">Czech</span>
+      <span class="lang-tag">Hungarian</span>
+      <span class="lang-tag">Romanian</span>
+      <span class="lang-tag">Ukrainian</span>
+      <span class="lang-tag">Thai</span>
+      <span class="lang-tag">Vietnamese</span>
+      <span class="lang-tag">Indonesian</span>
+      <span class="lang-tag">Malay</span>
+      <span class="lang-tag">Filipino</span>
+      <span class="lang-tag">Bengali</span>
+      <span class="lang-tag">Urdu</span>
+      <span class="lang-tag">Tamil</span>
+      <span class="lang-tag">Telugu</span>
+      <span class="lang-tag">Marathi</span>
+      <span class="lang-tag">Swahili</span>
+      <span class="lang-tag">Afrikaans</span>
+      <span class="lang-tag">Hebrew</span>
+      <span class="lang-tag">Persian (Farsi)</span>
+      <span class="lang-tag">+ 35 more</span>
+    </div>
+    <p style="margin-top:1.5rem;font-size:0.84rem;color:var(--muted);">
+      Need a specific language or accent? Check the full voice library at <a href="https://cheaptts.com/app" rel="noopener">cheaptts.com/app</a>.
+    </p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="container">
+    <div class="section-label">FAQ</div>
+    <h2>Frequently Asked <span class="accent">Questions</span></h2>
+    <div class="faq-list">
+      <details open>
+        <summary>What is CheapTTS and how does it work?</summary>
+        <div class="faq-body">
+          <a href="https://cheaptts.com" rel="noopener">CheapTTS</a> is a web-based AI text to speech platform. You type or paste text, choose a voice and engine tier (V1, V2 HD, or V3 Studio), and the platform generates a downloadable audio file in seconds. No software installation is required — it runs entirely in the browser.
+        </div>
+      </details>
+      <details>
+        <summary>How much does CheapTTS cost?</summary>
+        <div class="faq-body">
+          CheapTTS offers a free 3-day trial with no credit card required. Paid plans start at $14.99/month (Pro) and go up to $29.99/month (Unlimited). See all plan details on the <a href="https://cheaptts.com/pricing" rel="noopener">CheapTTS pricing page</a>.
+        </div>
+      </details>
+      <details>
+        <summary>Is CheapTTS a good ElevenLabs alternative?</summary>
+        <div class="faq-body">
+          Yes. CheapTTS delivers comparable voice quality using the same underlying model families used by premium TTS providers, at a fraction of the price. The $29.99/month Unlimited plan provides unlimited voice generation, while ElevenLabs charges $1,320+/month for comparable usage. CheapTTS also includes video generation — which ElevenLabs does not. Read the full comparison at <a href="https://cheaptts.com/vs/elevenlabs" rel="noopener">cheaptts.com/vs/elevenlabs</a>.
+        </div>
+      </details>
+      <details>
+        <summary>Can I use CheapTTS for YouTube videos?</summary>
+        <div class="faq-body">
+          Yes. CheapTTS is widely used for YouTube narration, faceless video channels, and educational content. The built-in AI video generator can produce fully narrated YouTube-ready MP4s from a single text prompt, complete with auto-generated visuals and synchronized captions.
+        </div>
+      </details>
+      <details>
+        <summary>Does CheapTTS support commercial use?</summary>
+        <div class="faq-body">
+          Yes. All paid plans include commercial usage rights. Generated audio and video files can be used in monetized YouTube channels, social media ads, client projects, and other commercial applications.
+        </div>
+      </details>
+      <details>
+        <summary>What languages does CheapTTS support?</summary>
+        <div class="faq-body">
+          CheapTTS supports 75+ languages including English, Spanish, French, German, Portuguese, Hindi, Arabic, Japanese, Korean, Mandarin Chinese, Italian, Dutch, Polish, Turkish, Russian, and many more. The V3 Studio engine covers the broadest language range with 76+ supported languages.
+        </div>
+      </details>
+      <details>
+        <summary>Is there an API for CheapTTS?</summary>
+        <div class="faq-body">
+          Yes. CheapTTS provides a REST API for developers who want to integrate AI voice generation into their own applications and workflows. See the <a href="https://cheaptts.com/developer" rel="noopener">CheapTTS developer documentation</a> for details.
+        </div>
+      </details>
+      <details>
+        <summary>Does CheapTTS work for TikTok content?</summary>
+        <div class="faq-body">
+          Yes. The CheapTTS Shorts Generator produces 9:16 vertical videos optimized for TikTok and Instagram Reels. Enter a topic and the AI handles script writing, voice recording, visual generation, and caption overlay — producing a ready-to-upload Short in minutes.
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <h2>Start Generating Voice for Free</h2>
+  <p>3-day trial. No credit card. 90+ voices. 75+ languages.</p>
+  <a href="https://cheaptts.com/sign-up" class="btn-white" rel="noopener">Get Started Free →</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    This page is an independent resource about <a href="https://cheaptts.com" rel="noopener">CheapTTS</a>.
+    &nbsp;|&nbsp;
+    <a href="https://cheaptts.com/privacy" rel="noopener">Privacy Policy</a>
+    &nbsp;|&nbsp;
+    <a href="https://cheaptts.com/blog" rel="noopener">CheapTTS Blog</a>
+    &nbsp;|&nbsp;
+    <a href="https://cheaptts.com/pricing" rel="noopener">Pricing</a>
+  </p>
+  <p style="margin-top:0.5rem;">© 2026 · Content about <a href="https://cheaptts.com" rel="noopener">cheaptts.com</a> · Hosted on GitHub Pages</p>
+</footer>
+
+</body>
+</html>
